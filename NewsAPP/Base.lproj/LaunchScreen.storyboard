@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_0" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,28 +16,40 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splsh (1)" translatesAutoresizingMaskIntoConstraints="NO" id="G0O-X9-eEk">
-                                <rect key="frame" x="0.0" y="-6" width="320" height="574"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dragon Event" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIq-H9-Awb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="t8S-wW-Lc7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2016年Dragon. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hp5-jA-aqc">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EH4-DE-iyE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.47921055555343628" green="0.80478250980377197" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="G0O-X9-eEk" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-6" id="IyU-rY-1cT"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="G0O-X9-eEk" secondAttribute="bottom" id="TKz-Hd-KLJ"/>
-                            <constraint firstItem="G0O-X9-eEk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="s7l-Fz-efN"/>
-                            <constraint firstAttribute="trailing" secondItem="G0O-X9-eEk" secondAttribute="trailing" id="tWp-Lf-cbO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aIq-H9-Awb" secondAttribute="trailing" constant="45" id="2ed-Ky-0jr"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="hp5-jA-aqc" secondAttribute="bottom" constant="8" id="5Ns-5o-tdl"/>
+                            <constraint firstItem="aIq-H9-Awb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="62" id="Rz6-nY-6jZ"/>
+                            <constraint firstItem="aIq-H9-Awb" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="220" id="cHx-ph-kEe"/>
+                            <constraint firstItem="hp5-jA-aqc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="22" id="cJZ-Qo-diO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hp5-jA-aqc" secondAttribute="trailing" constant="22" id="j7a-pK-sy7"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-229" y="72"/>
+            <point key="canvasLocation" x="-1066.4000000000001" y="11.244377811094454"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="splsh (1)" width="494" height="796"/>
-    </resources>
 </document>

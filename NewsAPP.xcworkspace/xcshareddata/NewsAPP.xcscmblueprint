@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C4F1A1481BF1886D427BCC80C3313EBC8A321080",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "19c733bc-4cb8-463f-ae65-5073d3c333ca++9424" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C4F1A1481BF1886D427BCC80C3313EBC8A321080" : 9223372036854775807,
+    "19c733bc-4cb8-463f-ae65-5073d3c333ca++9424" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8184EB47-324D-4316-9AB6-B81E33F41F56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C4F1A1481BF1886D427BCC80C3313EBC8A321080" : "NewsAPP\/",
+    "19c733bc-4cb8-463f-ae65-5073d3c333ca++9424" : "%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9\/taobao%20%204\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NewsAPP",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NewsAPP.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/61.183.247.119",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "19c733bc-4cb8-463f-ae65-5073d3c333ca++9424"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WuliiDragon\/NewsAPP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4F1A1481BF1886D427BCC80C3313EBC8A321080"
+    }
+  ]
+}
