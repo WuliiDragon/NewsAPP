@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5808A31DDA8D3C0063F0A2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5808A21DDA8D3C0063F0A2 /* BaseViewController.m */; };
+		2F5808AE1DDA90540063F0A2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5808AD1DDA90540063F0A2 /* UIView+Extension.m */; };
+		2F5808B11DDA92330063F0A2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5808B01DDA92330063F0A2 /* BaseNavigationController.m */; };
 		2F60AAF71DD8873D0079779B /* webViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F60AAF61DD8873D0079779B /* webViewViewController.m */; };
+		2FD937331DDAA3FA008851F2 /* XXPageChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9372E1DDAA3FA008851F2 /* XXPageChildViewController.m */; };
+		2FD937341DDAA3FA008851F2 /* XXPageSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937301DDAA3FA008851F2 /* XXPageSelectorView.m */; };
+		2FD937351DDAA3FA008851F2 /* XXPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937321DDAA3FA008851F2 /* XXPageViewController.m */; };
+		2FD937381DDAA450008851F2 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937371DDAA450008851F2 /* HomePageViewController.m */; };
+		2FD9373D1DDAA78D008851F2 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9373C1DDAA78D008851F2 /* RecommendViewController.m */; };
+		2FD937421DDAAC13008851F2 /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937411DDAAC13008851F2 /* FoundViewController.m */; };
+		2FD937471DDAAC46008851F2 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937461DDAAC46008851F2 /* MyInfoViewController.m */; };
+		2FD9374A1DDAACF5008851F2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937491DDAACF5008851F2 /* MainViewController.m */; };
+		2FD937501DDAB3B8008851F2 /* TabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9374F1DDAB3B8008851F2 /* TabItem.m */; };
 		D88F30271DD5B48100E36364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D88F30261DD5B48100E36364 /* main.m */; };
 		D88F302A1DD5B48100E36364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D88F30291DD5B48100E36364 /* AppDelegate.m */; };
 		D88F30301DD5B48100E36364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88F302E1DD5B48100E36364 /* Main.storyboard */; };
@@ -23,8 +35,33 @@
 
 /* Begin PBXFileReference section */
 		0B8398676049DC37CE98C6BB /* Pods-NewsAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsAPP/Pods-NewsAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		2F5808A11DDA8D3C0063F0A2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2F5808A21DDA8D3C0063F0A2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2F5808A41DDA8E3D0063F0A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2F5808AC1DDA90540063F0A2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2F5808AD1DDA90540063F0A2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2F5808AF1DDA92330063F0A2 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		2F5808B01DDA92330063F0A2 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		2F60AAF51DD8873D0079779B /* webViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewViewController.h; sourceTree = "<group>"; };
 		2F60AAF61DD8873D0079779B /* webViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewViewController.m; sourceTree = "<group>"; };
+		2FD9372D1DDAA3FA008851F2 /* XXPageChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPageChildViewController.h; sourceTree = "<group>"; };
+		2FD9372E1DDAA3FA008851F2 /* XXPageChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPageChildViewController.m; sourceTree = "<group>"; };
+		2FD9372F1DDAA3FA008851F2 /* XXPageSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPageSelectorView.h; sourceTree = "<group>"; };
+		2FD937301DDAA3FA008851F2 /* XXPageSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPageSelectorView.m; sourceTree = "<group>"; };
+		2FD937311DDAA3FA008851F2 /* XXPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPageViewController.h; sourceTree = "<group>"; };
+		2FD937321DDAA3FA008851F2 /* XXPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPageViewController.m; sourceTree = "<group>"; };
+		2FD937361DDAA450008851F2 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		2FD937371DDAA450008851F2 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		2FD9373B1DDAA78D008851F2 /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		2FD9373C1DDAA78D008851F2 /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		2FD937401DDAAC13008851F2 /* FoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
+		2FD937411DDAAC13008851F2 /* FoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundViewController.m; sourceTree = "<group>"; };
+		2FD937451DDAAC46008851F2 /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		2FD937461DDAAC46008851F2 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		2FD937481DDAACF5008851F2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2FD937491DDAACF5008851F2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2FD9374E1DDAB3B8008851F2 /* TabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabItem.h; sourceTree = "<group>"; };
+		2FD9374F1DDAB3B8008851F2 /* TabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabItem.m; sourceTree = "<group>"; };
 		7987E68F23C906CE2134FC9E /* Pods-NewsAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsAPP/Pods-NewsAPP.release.xcconfig"; sourceTree = "<group>"; };
 		A8C9DA372EE3E461D0AEA1FB /* libPods-NewsAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88F30221DD5B48100E36364 /* NewsAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +102,89 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2F58089D1DDA8CD50063F0A2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2F5808A01DDA8D000063F0A2 /* View */,
+				2F58089F1DDA8CF10063F0A2 /* Comtroller */,
+				2F58089E1DDA8CE60063F0A2 /* Model */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2F58089E1DDA8CE60063F0A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2F58089F1DDA8CF10063F0A2 /* Comtroller */ = {
+			isa = PBXGroup;
+			children = (
+				2F5808A11DDA8D3C0063F0A2 /* BaseViewController.h */,
+				2F5808A21DDA8D3C0063F0A2 /* BaseViewController.m */,
+				2F5808AF1DDA92330063F0A2 /* BaseNavigationController.h */,
+				2F5808B01DDA92330063F0A2 /* BaseNavigationController.m */,
+			);
+			name = Comtroller;
+			sourceTree = "<group>";
+		};
+		2F5808A01DDA8D000063F0A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2F5808A51DDA8F2C0063F0A2 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				2F5808AB1DDA903A0063F0A2 /* gategory */,
+				2F5808B51DDAA2CF0063F0A2 /* tool */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		2F5808AB1DDA903A0063F0A2 /* gategory */ = {
+			isa = PBXGroup;
+			children = (
+				2F5808AC1DDA90540063F0A2 /* UIView+Extension.h */,
+				2F5808AD1DDA90540063F0A2 /* UIView+Extension.m */,
+			);
+			name = gategory;
+			sourceTree = "<group>";
+		};
+		2F5808B21DDAA2410063F0A2 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				2F5808B31DDAA24D0063F0A2 /* Cntroller */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		2F5808B31DDAA24D0063F0A2 /* Cntroller */ = {
+			isa = PBXGroup;
+			children = (
+				2FD937361DDAA450008851F2 /* HomePageViewController.h */,
+				2FD937371DDAA450008851F2 /* HomePageViewController.m */,
+			);
+			name = Cntroller;
+			sourceTree = "<group>";
+		};
+		2F5808B51DDAA2CF0063F0A2 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9372D1DDAA3FA008851F2 /* XXPageChildViewController.h */,
+				2FD9372E1DDAA3FA008851F2 /* XXPageChildViewController.m */,
+				2FD9372F1DDAA3FA008851F2 /* XXPageSelectorView.h */,
+				2FD937301DDAA3FA008851F2 /* XXPageSelectorView.m */,
+				2FD937311DDAA3FA008851F2 /* XXPageViewController.h */,
+				2FD937321DDAA3FA008851F2 /* XXPageViewController.m */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
 		2F60AAF41DD886F40079779B /* WebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +192,57 @@
 				2F60AAF61DD8873D0079779B /* webViewViewController.m */,
 			);
 			name = WebView;
+			sourceTree = "<group>";
+		};
+		2FD937391DDAA4A0008851F2 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9373A1DDAA4FB008851F2 /* Controller */,
+			);
+			name = Recommend;
+			sourceTree = "<group>";
+		};
+		2FD9373A1DDAA4FB008851F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9373B1DDAA78D008851F2 /* RecommendViewController.h */,
+				2FD9373C1DDAA78D008851F2 /* RecommendViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2FD9373E1DDAABF1008851F2 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9373F1DDAABFB008851F2 /* Controller */,
+			);
+			name = Found;
+			sourceTree = "<group>";
+		};
+		2FD9373F1DDAABFB008851F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FD937401DDAAC13008851F2 /* FoundViewController.h */,
+				2FD937411DDAAC13008851F2 /* FoundViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2FD937431DDAAC19008851F2 /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2FD937441DDAAC2E008851F2 /* Controller */,
+			);
+			name = MyInfo;
+			sourceTree = "<group>";
+		};
+		2FD937441DDAAC2E008851F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FD937451DDAAC46008851F2 /* MyInfoViewController.h */,
+				2FD937461DDAAC46008851F2 /* MyInfoViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		7F4EE00CD6A223AE30E8CE09 /* Pods */ = {
@@ -104,6 +275,17 @@
 		D88F30241DD5B48100E36364 /* NewsAPP */ = {
 			isa = PBXGroup;
 			children = (
+				2F5808A41DDA8E3D0063F0A2 /* PrefixHeader.pch */,
+				2FD937481DDAACF5008851F2 /* MainViewController.h */,
+				2FD937491DDAACF5008851F2 /* MainViewController.m */,
+				2FD9374E1DDAB3B8008851F2 /* TabItem.h */,
+				2FD9374F1DDAB3B8008851F2 /* TabItem.m */,
+				2FD937431DDAAC19008851F2 /* MyInfo */,
+				2FD9373E1DDAABF1008851F2 /* Found */,
+				2FD937391DDAA4A0008851F2 /* Recommend */,
+				2F5808B21DDAA2410063F0A2 /* HomePage */,
+				2F5808A51DDA8F2C0063F0A2 /* other */,
+				2F58089D1DDA8CD50063F0A2 /* Base */,
 				2F60AAF41DD886F40079779B /* WebView */,
 				D88F30511DD70F0600E36364 /* NewstableView */,
 				D88F30281DD5B48100E36364 /* AppDelegate.h */,
@@ -335,10 +517,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD937331DDAA3FA008851F2 /* XXPageChildViewController.m in Sources */,
+				2F5808AE1DDA90540063F0A2 /* UIView+Extension.m in Sources */,
 				D88F30501DD5F61F00E36364 /* newData.m in Sources */,
+				2F5808A31DDA8D3C0063F0A2 /* BaseViewController.m in Sources */,
+				2FD937381DDAA450008851F2 /* HomePageViewController.m in Sources */,
+				2FD937351DDAA3FA008851F2 /* XXPageViewController.m in Sources */,
+				2FD937341DDAA3FA008851F2 /* XXPageSelectorView.m in Sources */,
 				D88F30471DD5BFD800E36364 /* myTableViewCell.m in Sources */,
+				2F5808B11DDA92330063F0A2 /* BaseNavigationController.m in Sources */,
 				D88F304B1DD5C1BA00E36364 /* newsTableViewController.m in Sources */,
+				2FD937471DDAAC46008851F2 /* MyInfoViewController.m in Sources */,
+				2FD937501DDAB3B8008851F2 /* TabItem.m in Sources */,
 				D88F302A1DD5B48100E36364 /* AppDelegate.m in Sources */,
+				2FD937421DDAAC13008851F2 /* FoundViewController.m in Sources */,
+				2FD9374A1DDAACF5008851F2 /* MainViewController.m in Sources */,
+				2FD9373D1DDAA78D008851F2 /* RecommendViewController.m in Sources */,
 				2F60AAF71DD8873D0079779B /* webViewViewController.m in Sources */,
 				D88F30331DD5B48100E36364 /* NewsAPP.xcdatamodeld in Sources */,
 				D88F30271DD5B48100E36364 /* main.m in Sources */,
