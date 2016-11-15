@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Dragon. All rights reserved.
 //
 
-#import "BaseNavigationController.h"
+#import "BaseViewController.h"
 
-@interface FoundViewController : BaseNavigationController
+@interface FoundViewController : BaseViewController
 
 @end

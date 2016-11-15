@@ -12,6 +12,7 @@
 #import "RecommendViewController.h"
 #import "HomePageViewController.h"
 #import "TabItem.h"
+#import "BaseNavigationController.h"
 
 @interface MainViewController ()
 {
@@ -29,17 +30,17 @@
 
 #pragma mark 创建子控制器
 -(void)loadSonViewController{
-    MyInfoViewController *myInfoVC = [[MyInfoViewController alloc]init];
-    FoundViewController *foundVC = [[FoundViewController alloc]init];
+    HomePageViewController*homePageVC = [[HomePageViewController alloc]init];
     RecommendViewController *recommendVC = [[RecommendViewController alloc]init];
-    HomePageViewController *homePageVC = [[HomePageViewController alloc]init];
+    FoundViewController *foundVC = [[FoundViewController alloc]init];
+    MyInfoViewController *myInfoVC = [[MyInfoViewController alloc]init];
     NSArray *controllerArr = @[homePageVC,recommendVC,foundVC,myInfoVC];
     NSMutableArray *arr = [[NSMutableArray alloc]initWithCapacity:4];
     for(int i = 0;i<4;i++){
         BaseNavigationController *baseNC = [[BaseNavigationController alloc]initWithRootViewController:controllerArr[i]];
         [arr addObject:baseNC];
     }
-    self.viewControllers =arr;
+    self.viewControllers = arr;
 }
 
 #pragma mark 自定义TabBar

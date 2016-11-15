@@ -158,6 +158,7 @@
 		2F5808B21DDAA2410063F0A2 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				D88F30511DD70F0600E36364 /* NewstableView */,
 				2F5808B31DDAA24D0063F0A2 /* Cntroller */,
 			);
 			name = HomePage;
@@ -287,7 +288,6 @@
 				2F5808A51DDA8F2C0063F0A2 /* other */,
 				2F58089D1DDA8CD50063F0A2 /* Base */,
 				2F60AAF41DD886F40079779B /* WebView */,
-				D88F30511DD70F0600E36364 /* NewstableView */,
 				D88F30281DD5B48100E36364 /* AppDelegate.h */,
 				D88F30291DD5B48100E36364 /* AppDelegate.m */,
 				D88F302E1DD5B48100E36364 /* Main.storyboard */,

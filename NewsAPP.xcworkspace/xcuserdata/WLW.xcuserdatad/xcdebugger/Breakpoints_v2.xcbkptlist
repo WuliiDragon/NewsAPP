@@ -19,13 +19,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NewsAPP/newsTableViewController.m"
-            timestampString = "500869962.484612"
+            filePath = "NewsAPP/HomePageViewController.m"
+            timestampString = "500893634.385284"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "-calculatetime:"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-click:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

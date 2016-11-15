@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"推荐";
     // Do any additional setup after loading the view.
 }
 

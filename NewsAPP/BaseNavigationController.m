@@ -62,10 +62,10 @@
         return [UIColor colorWithRed:((float) r / 255.0f) green:((float) g / 255.0f) blue:((float) b / 255.0f) alpha:1.0f];
     }
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
-//    if(self.viewControllers.count>0){
-//        viewController.hidesBottomBarWhenPushed = YES;
-//    }
-//    [super pushViewController:viewController animated:animated];
+    if(self.viewControllers.count>0){
+        viewController.hidesBottomBarWhenPushed = YES;
+    }
+    [super pushViewController:viewController animated:animated];
 }
 
 -(UIStatusBarStyle) preferredStatusBarStyle{

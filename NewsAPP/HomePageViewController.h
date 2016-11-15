@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Dragon. All rights reserved.
 //
 
-#import "XXPageChildViewController.h"
-
-@interface HomePageViewController : XXPageChildViewController
+#import "BaseViewController.h"
+#import "XXPageViewController.h"
+@interface HomePageViewController : XXPageViewController
 
 @end

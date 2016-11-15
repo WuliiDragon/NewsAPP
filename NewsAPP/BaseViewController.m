@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     if(self.navigationController.viewControllers.count >=2){
+        UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        backButton.frame = CGRectMake(0, 0, 22, 20);
+        [backButton setBackgroundImage:[UIImage imageNamed:@"prev"] forState:UIControlStateNormal];
+        [backButton addTarget:self action:@selector(backVC) forControlEvents:UIControlEventTouchUpInside];
+        backButton.contentMode = UIViewContentModeScaleAspectFit;
+        UIBarButtonItem *liftButton = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+        self.navigationItem.leftBarButtonItem = liftButton;
     }
 }
 
