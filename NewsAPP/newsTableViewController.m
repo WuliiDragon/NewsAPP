@@ -68,7 +68,6 @@
         NSString *result =  [self calculatetime:time];
         cell.date.text = result;
     }
-
     return cell;
 }
 #pragma mark - 单元格的点击方法

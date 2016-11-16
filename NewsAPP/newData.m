@@ -13,10 +13,11 @@
 
 
 -(void) getdata{
+        //@"头条",@"社会",@"体育",@"军事
     NSMutableDictionary *params=[NSMutableDictionary dictionary];
     //在数组里面添加请求参数
     params[@"key"] = @"ad8e3cf67ed35b9789848d40b904eda7";
-    params[@"type"] = @"tiyu";
+    params[@"shehui"] = @"tiyu";
     
     //创建请求管理者
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
@@ -28,7 +29,9 @@
         NSDictionary *resultArray = [datasouce objectForKey:@"result"];
         NSMutableArray *data = [resultArray objectForKey:@"data"];
         
-        [self.delegate data:data];
+        NSNotification *notification = [NSNotification notificationWithName: @"notificationAction" object:data];
+        [[NSNotificationCenter defaultCenter] postNotification:notification];
+        
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         NSLog(@"%@",error);
     }];

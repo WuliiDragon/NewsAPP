@@ -15,6 +15,10 @@
 		2F6BD2BF1DDBF6D000E5430A /* MilitaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2BE1DDBF6D000E5430A /* MilitaryViewController.m */; };
 		2F6BD2C21DDBF73300E5430A /* SportNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2C11DDBF73300E5430A /* SportNewViewController.m */; };
 		2F6BD2C71DDC07BD00E5430A /* TopNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2C61DDC07BD00E5430A /* TopNewViewController.m */; };
+		2F6BD2E91DDC139C00E5430A /* HYBLoadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2E21DDC139C00E5430A /* HYBLoadImageView.m */; };
+		2F6BD2EA1DDC139C00E5430A /* HYBLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2E41DDC139C00E5430A /* HYBLoopScrollView.m */; };
+		2F6BD2EB1DDC139C00E5430A /* HYBPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2E61DDC139C00E5430A /* HYBPageControl.m */; };
+		2F6BD2EC1DDC139C00E5430A /* UIView+HYBUIViewCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2E81DDC139C00E5430A /* UIView+HYBUIViewCommon.m */; };
 		2FD937331DDAA3FA008851F2 /* XXPageChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9372E1DDAA3FA008851F2 /* XXPageChildViewController.m */; };
 		2FD937341DDAA3FA008851F2 /* XXPageSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937301DDAA3FA008851F2 /* XXPageSelectorView.m */; };
 		2FD937351DDAA3FA008851F2 /* XXPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937321DDAA3FA008851F2 /* XXPageViewController.m */; };
@@ -56,6 +60,14 @@
 		2F6BD2C11DDBF73300E5430A /* SportNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportNewViewController.m; sourceTree = "<group>"; };
 		2F6BD2C51DDC07BD00E5430A /* TopNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopNewViewController.h; sourceTree = "<group>"; };
 		2F6BD2C61DDC07BD00E5430A /* TopNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopNewViewController.m; sourceTree = "<group>"; };
+		2F6BD2E11DDC139C00E5430A /* HYBLoadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBLoadImageView.h; sourceTree = "<group>"; };
+		2F6BD2E21DDC139C00E5430A /* HYBLoadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBLoadImageView.m; sourceTree = "<group>"; };
+		2F6BD2E31DDC139C00E5430A /* HYBLoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBLoopScrollView.h; sourceTree = "<group>"; };
+		2F6BD2E41DDC139C00E5430A /* HYBLoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBLoopScrollView.m; sourceTree = "<group>"; };
+		2F6BD2E51DDC139C00E5430A /* HYBPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBPageControl.h; sourceTree = "<group>"; };
+		2F6BD2E61DDC139C00E5430A /* HYBPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBPageControl.m; sourceTree = "<group>"; };
+		2F6BD2E71DDC139C00E5430A /* UIView+HYBUIViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HYBUIViewCommon.h"; sourceTree = "<group>"; };
+		2F6BD2E81DDC139C00E5430A /* UIView+HYBUIViewCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYBUIViewCommon.m"; sourceTree = "<group>"; };
 		2FD9372D1DDAA3FA008851F2 /* XXPageChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPageChildViewController.h; sourceTree = "<group>"; };
 		2FD9372E1DDAA3FA008851F2 /* XXPageChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPageChildViewController.m; sourceTree = "<group>"; };
 		2FD9372F1DDAA3FA008851F2 /* XXPageSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPageSelectorView.h; sourceTree = "<group>"; };
@@ -152,6 +164,7 @@
 		2F5808A51DDA8F2C0063F0A2 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				2F6BD2E01DDC139C00E5430A /* HYBLoopScrollView */,
 				2F5808AB1DDA903A0063F0A2 /* gategory */,
 				2F5808B51DDAA2CF0063F0A2 /* tool */,
 			);
@@ -213,6 +226,21 @@
 				2F60AAF61DD8873D0079779B /* webViewViewController.m */,
 			);
 			name = WebView;
+			sourceTree = "<group>";
+		};
+		2F6BD2E01DDC139C00E5430A /* HYBLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BD2E11DDC139C00E5430A /* HYBLoadImageView.h */,
+				2F6BD2E21DDC139C00E5430A /* HYBLoadImageView.m */,
+				2F6BD2E31DDC139C00E5430A /* HYBLoopScrollView.h */,
+				2F6BD2E41DDC139C00E5430A /* HYBLoopScrollView.m */,
+				2F6BD2E51DDC139C00E5430A /* HYBPageControl.h */,
+				2F6BD2E61DDC139C00E5430A /* HYBPageControl.m */,
+				2F6BD2E71DDC139C00E5430A /* UIView+HYBUIViewCommon.h */,
+				2F6BD2E81DDC139C00E5430A /* UIView+HYBUIViewCommon.m */,
+			);
+			path = HYBLoopScrollView;
 			sourceTree = "<group>";
 		};
 		2FD937391DDAA4A0008851F2 /* Recommend */ = {
@@ -550,6 +578,8 @@
 				2F6BD2BC1DDBF6AB00E5430A /* SocietyNewViewController.m in Sources */,
 				2F6BD2C71DDC07BD00E5430A /* TopNewViewController.m in Sources */,
 				2FD937471DDAAC46008851F2 /* MyInfoViewController.m in Sources */,
+				2F6BD2EC1DDC139C00E5430A /* UIView+HYBUIViewCommon.m in Sources */,
+				2F6BD2EA1DDC139C00E5430A /* HYBLoopScrollView.m in Sources */,
 				2FD937501DDAB3B8008851F2 /* TabItem.m in Sources */,
 				D88F302A1DD5B48100E36364 /* AppDelegate.m in Sources */,
 				2FD937421DDAAC13008851F2 /* FoundViewController.m in Sources */,
@@ -558,7 +588,9 @@
 				2FD9374A1DDAACF5008851F2 /* MainViewController.m in Sources */,
 				2FD9373D1DDAA78D008851F2 /* RecommendViewController.m in Sources */,
 				2F60AAF71DD8873D0079779B /* webViewViewController.m in Sources */,
+				2F6BD2EB1DDC139C00E5430A /* HYBPageControl.m in Sources */,
 				D88F30331DD5B48100E36364 /* NewsAPP.xcdatamodeld in Sources */,
+				2F6BD2E91DDC139C00E5430A /* HYBLoadImageView.m in Sources */,
 				D88F30271DD5B48100E36364 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

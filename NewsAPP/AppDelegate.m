@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "newData.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[MainViewController alloc] init];
+    newData *data = [[newData alloc]init];
+    [data getdata];
     return YES;
 }
 
