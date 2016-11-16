@@ -11,7 +11,10 @@
 		2F5808AE1DDA90540063F0A2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5808AD1DDA90540063F0A2 /* UIView+Extension.m */; };
 		2F5808B11DDA92330063F0A2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5808B01DDA92330063F0A2 /* BaseNavigationController.m */; };
 		2F60AAF71DD8873D0079779B /* webViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F60AAF61DD8873D0079779B /* webViewViewController.m */; };
-		2F6BD2B91DDB451D00E5430A /* TopNewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2B81DDB451D00E5430A /* TopNewTableViewController.m */; };
+		2F6BD2BC1DDBF6AB00E5430A /* SocietyNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2BB1DDBF6AB00E5430A /* SocietyNewViewController.m */; };
+		2F6BD2BF1DDBF6D000E5430A /* MilitaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2BE1DDBF6D000E5430A /* MilitaryViewController.m */; };
+		2F6BD2C21DDBF73300E5430A /* SportNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2C11DDBF73300E5430A /* SportNewViewController.m */; };
+		2F6BD2C71DDC07BD00E5430A /* TopNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD2C61DDC07BD00E5430A /* TopNewViewController.m */; };
 		2FD937331DDAA3FA008851F2 /* XXPageChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9372E1DDAA3FA008851F2 /* XXPageChildViewController.m */; };
 		2FD937341DDAA3FA008851F2 /* XXPageSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937301DDAA3FA008851F2 /* XXPageSelectorView.m */; };
 		2FD937351DDAA3FA008851F2 /* XXPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD937321DDAA3FA008851F2 /* XXPageViewController.m */; };
@@ -45,8 +48,14 @@
 		2F5808B01DDA92330063F0A2 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		2F60AAF51DD8873D0079779B /* webViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewViewController.h; sourceTree = "<group>"; };
 		2F60AAF61DD8873D0079779B /* webViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewViewController.m; sourceTree = "<group>"; };
-		2F6BD2B71DDB451D00E5430A /* TopNewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopNewTableViewController.h; sourceTree = "<group>"; };
-		2F6BD2B81DDB451D00E5430A /* TopNewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopNewTableViewController.m; sourceTree = "<group>"; };
+		2F6BD2BA1DDBF6AB00E5430A /* SocietyNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocietyNewViewController.h; sourceTree = "<group>"; };
+		2F6BD2BB1DDBF6AB00E5430A /* SocietyNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocietyNewViewController.m; sourceTree = "<group>"; };
+		2F6BD2BD1DDBF6D000E5430A /* MilitaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MilitaryViewController.h; sourceTree = "<group>"; };
+		2F6BD2BE1DDBF6D000E5430A /* MilitaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MilitaryViewController.m; sourceTree = "<group>"; };
+		2F6BD2C01DDBF73300E5430A /* SportNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportNewViewController.h; sourceTree = "<group>"; };
+		2F6BD2C11DDBF73300E5430A /* SportNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportNewViewController.m; sourceTree = "<group>"; };
+		2F6BD2C51DDC07BD00E5430A /* TopNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopNewViewController.h; sourceTree = "<group>"; };
+		2F6BD2C61DDC07BD00E5430A /* TopNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopNewViewController.m; sourceTree = "<group>"; };
 		2FD9372D1DDAA3FA008851F2 /* XXPageChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPageChildViewController.h; sourceTree = "<group>"; };
 		2FD9372E1DDAA3FA008851F2 /* XXPageChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPageChildViewController.m; sourceTree = "<group>"; };
 		2FD9372F1DDAA3FA008851F2 /* XXPageSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPageSelectorView.h; sourceTree = "<group>"; };
@@ -172,8 +181,14 @@
 			children = (
 				2FD937361DDAA450008851F2 /* HomePageViewController.h */,
 				2FD937371DDAA450008851F2 /* HomePageViewController.m */,
-				2F6BD2B71DDB451D00E5430A /* TopNewTableViewController.h */,
-				2F6BD2B81DDB451D00E5430A /* TopNewTableViewController.m */,
+				2F6BD2BA1DDBF6AB00E5430A /* SocietyNewViewController.h */,
+				2F6BD2BB1DDBF6AB00E5430A /* SocietyNewViewController.m */,
+				2F6BD2BD1DDBF6D000E5430A /* MilitaryViewController.h */,
+				2F6BD2BE1DDBF6D000E5430A /* MilitaryViewController.m */,
+				2F6BD2C01DDBF73300E5430A /* SportNewViewController.h */,
+				2F6BD2C11DDBF73300E5430A /* SportNewViewController.m */,
+				2F6BD2C51DDC07BD00E5430A /* TopNewViewController.h */,
+				2F6BD2C61DDC07BD00E5430A /* TopNewViewController.m */,
 			);
 			name = Cntroller;
 			sourceTree = "<group>";
@@ -532,11 +547,14 @@
 				D88F30471DD5BFD800E36364 /* myTableViewCell.m in Sources */,
 				2F5808B11DDA92330063F0A2 /* BaseNavigationController.m in Sources */,
 				D88F304B1DD5C1BA00E36364 /* newsTableViewController.m in Sources */,
+				2F6BD2BC1DDBF6AB00E5430A /* SocietyNewViewController.m in Sources */,
+				2F6BD2C71DDC07BD00E5430A /* TopNewViewController.m in Sources */,
 				2FD937471DDAAC46008851F2 /* MyInfoViewController.m in Sources */,
 				2FD937501DDAB3B8008851F2 /* TabItem.m in Sources */,
 				D88F302A1DD5B48100E36364 /* AppDelegate.m in Sources */,
 				2FD937421DDAAC13008851F2 /* FoundViewController.m in Sources */,
-				2F6BD2B91DDB451D00E5430A /* TopNewTableViewController.m in Sources */,
+				2F6BD2BF1DDBF6D000E5430A /* MilitaryViewController.m in Sources */,
+				2F6BD2C21DDBF73300E5430A /* SportNewViewController.m in Sources */,
 				2FD9374A1DDAACF5008851F2 /* MainViewController.m in Sources */,
 				2FD9373D1DDAA78D008851F2 /* RecommendViewController.m in Sources */,
 				2F60AAF71DD8873D0079779B /* webViewViewController.m in Sources */,

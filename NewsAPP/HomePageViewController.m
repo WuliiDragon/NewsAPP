@@ -9,6 +9,11 @@
 #import "HomePageViewController.h"
 #import "newsTableViewController.h"
 
+#import "TopNewViewController.h"
+#import "SocietyNewViewController.h"
+#import "MilitaryViewController.h"
+#import "SportNewViewController.h"
+
 
 //top(头条，默认),shehui(社会),guonei(国内),guoji(国际),yule(娱乐),tiyu(体育)junshi(军事),keji(科技),caijing(财经),shishang(时尚)
 @interface HomePageViewController ()
@@ -51,17 +56,31 @@
     [self setBlock_topInset:^CGFloat{
         return 0;
     }];
+    [self setBlock_bottomInset:^CGFloat{
+        return 10;
+    }];
     [self setBlock_borderColorOfTabBar:^UIColor *{
         return [UIColor clearColor];
     }];
     [self setBlock_indicatorColorOfSelectedTabItem:^UIColor *{
         return [UIColor colorWithRed:68/255.f green:150/255.f blue:214/255.f alpha:1.0f];
     }];
-     NSArray  *weakArr = pageTitles;
+    __weak NSArray  *weakArr = pageTitles;
     [self setBlock_titleForPageAtIndex:^NSString *(NSUInteger index) {
         NSArray  *strongArr = weakArr;
         return strongArr[index];
     }];
+    TopNewViewController *topNew = [[TopNewViewController alloc]init];
+    SportNewViewController *sportNew = [[SportNewViewController alloc ]init];
+    SocietyNewViewController *societyNew = [[SocietyNewViewController alloc ]init];
+    MilitaryViewController *militaryNew = [[MilitaryViewController alloc]init];
+    NSArray *array = @[topNew,societyNew,sportNew,militaryNew ];
+    [self setBlock_viewControllerAtIndex:^UIViewController *(NSUInteger index) {
+        return array[index];
+    }];
+    [self reloadData];
+    
+    
     
 }
 -(void)click:(HomePageViewController*)homePagesVC{

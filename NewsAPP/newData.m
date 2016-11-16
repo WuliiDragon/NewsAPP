@@ -13,9 +13,6 @@
 
 
 -(void) getdata{
-    NSLog(@"%s",__func__);
-
-    __block NSMutableArray *result = [[NSMutableArray alloc] init];
     NSMutableDictionary *params=[NSMutableDictionary dictionary];
     //在数组里面添加请求参数
     params[@"key"] = @"ad8e3cf67ed35b9789848d40b904eda7";
